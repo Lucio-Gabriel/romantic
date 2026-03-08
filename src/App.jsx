@@ -3,27 +3,27 @@ import "./App.css";
 
 const photos = [
   {
-    src: "/public/images/nosso-primeiro-encontro.jpeg",
+    src: "/images/nosso-primeiro-encontro.jpeg",
     alt: "Casal segurando flores",
     caption: "Nosso primeiro encontro",
   },
   {
-    src: "/public/images/dia-do-presente.jpeg",
+    src: "/images/dia-do-presente.jpeg",
     alt: "Casal abraçado em um momento feliz",
     caption: "O dia que eu ganhei uns presentes seuu",
   },
   {
-    src: "/public/images/flores.jpeg",
+    src: "/images/flores.jpeg",
     alt: "Mãos juntas com aliança",
     caption: "A primeira vez que dei flores pra você!",
   },
   {
-    src: "/public/images/melhor-dia.jpeg",
+    src: "/images/melhor-dia.jpeg",
     alt: "Casal caminhando ao pôr do sol",
     caption: "Um dos melhores dia com você",
   },
   {
-    src: "/public/images/ano-novo.jpeg",
+    src: "/images/ano-novo.jpeg",
     alt: "Casal caminhando ao pôr do sol",
     caption: "Nosso primeiro ano juntinhos, amo você",
   },
