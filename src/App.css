@@ -166,6 +166,7 @@ h2 {
 .timeline-item {
   position: relative;
   padding-left: 1.8rem;
+  padding-right: 0.35rem;
   color: var(--text-soft);
 }
 
@@ -188,12 +189,15 @@ h2 {
 }
 
 .timeline-item h3 {
-  font-size: 1.38rem;
-  margin-top: 0.1rem;
+  font-size: clamp(1.2rem, 6.1vw, 1.38rem);
+  line-height: 1.2;
+  margin-top: 0.18rem;
+  margin-bottom: 0.2rem;
+  overflow-wrap: break-word;
 }
 
 .timeline-item p {
-  margin: 0.2rem 0 0;
+  margin: 0;
 }
 
 .love-letter {
@@ -222,7 +226,7 @@ h2 {
 .reason-card {
   display: grid;
   grid-template-columns: auto 1fr;
-  align-items: center;
+  align-items: start;
   gap: 0.7rem;
   border-radius: 16px;
   padding: 0.7rem 0.8rem;
@@ -245,6 +249,8 @@ h2 {
 .reason-card p {
   margin: 0;
   color: var(--text);
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .surprise {

@@ -55,15 +55,15 @@ const timeline = [
 ];
 
 const reasons = [
-  "O brilho do espirito santo.",
-  "Sua paciencia",
+  "O brilho do espírito santo.",
+  "Sua paciência.",
   "O jeito que sempre cuidou de mim.",
   "Seu abraço.",
   "Sua força de vontade.",
-  "Sua beleza",
-  "O jeito como olha pra mim",
-  "O jeito como você me ama",
-  "Seus sanduíches",
+  "Sua beleza.",
+  "O jeito como olha pra mim.",
+  "O jeito como você me ama.",
+  "Seus sanduíches.",
   "Seu cuidado comigo, todos os dias.",
 ];
 
