@@ -106,6 +106,9 @@ h1 {
 h2 {
   text-align: center;
   font-size: clamp(1.75rem, 8vw, 2.35rem);
+  line-height: 1.15;
+  text-wrap: balance;
+  padding-inline: 0.2rem;
 }
 
 .section-subtitle {
@@ -376,6 +379,13 @@ h2 {
 
   .reasons-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  h2 {
+    font-size: clamp(1.62rem, 8.2vw, 2rem);
+    line-height: 1.2;
   }
 }
 
