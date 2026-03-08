@@ -3,41 +3,46 @@ import './App.css'
 
 const photos = [
   {
-    src: 'https://images.unsplash.com/photo-1516589091380-5d8e87df6999?auto=format&fit=crop&w=800&q=80',
+    src: '/public/images/nosso-primeiro-encontro.jpeg',
     alt: 'Casal segurando flores',
-    caption: 'Nosso sorriso favorito',
+    caption: 'Nosso primeiro encontro',
   },
   {
-    src: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
+    src: '/public/images/dia-do-presente.jpeg',
     alt: 'Casal abraçado em um momento feliz',
-    caption: 'Um abraço que vira lar',
+    caption: 'O dia que eu ganhei uns presentes seuu',
   },
   {
-    src: 'https://images.unsplash.com/photo-1474552226712-ac0f0961a954?auto=format&fit=crop&w=800&q=80',
+    src: '/public/images/flores.jpeg',
     alt: 'Mãos juntas com aliança',
-    caption: 'Detalhes que contam nossa história',
+    caption: 'A primeira vez que dei flores pra você!',
   },
   {
-    src: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80',
+    src: '/public/images/melhor-dia.jpeg',
     alt: 'Casal caminhando ao pôr do sol',
-    caption: 'Nosso caminho lado a lado',
+    caption: 'Um dos melhores dia com você',
+  },
+  {
+    src: '/public/images/ano-novo.jpeg',
+    alt: 'Casal caminhando ao pôr do sol',
+    caption: 'Nosso primeiro ano juntinhos, amo você',
   },
 ]
 
 const timeline = [
   {
     title: 'O dia que nos conhecemos',
-    date: 'Março de 20XX',
+    date: 'Fevereiro de 2025',
     description: 'Tudo ficou mais bonito no instante em que nossos caminhos se cruzaram.',
   },
   {
     title: 'Nosso primeiro encontro',
-    date: 'Maio de 20XX',
+    date: 'Março de 2025',
     description: 'Risos tímidos, olhos brilhando e uma conexão que parecia destino.',
   },
   {
-    title: 'Nosso primeiro passeio',
-    date: 'Julho de 20XX',
+    title: 'Inicio do nosso namoro',
+    date: 'Junho de 2025',
     description: 'Um dia simples que virou memória eterna.',
   },
   {
