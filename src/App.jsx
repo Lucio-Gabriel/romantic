@@ -157,9 +157,6 @@ function App() {
 
       <section ref={photosRef} className="section reveal">
         <h2>Nossas memórias</h2>
-        <p className="section-subtitle">
-          Troque as imagens pelos nossos momentos favoritos.
-        </p>
         <div
           className="photo-carousel"
           role="list"
@@ -186,23 +183,6 @@ function App() {
             </article>
           ))}
         </div>
-      </section>
-
-      <section className="section reveal">
-        <h2>Uma carta para você</h2>
-        <article className="love-letter">
-          O que falar de Ana kemelly? Simplesmente
-          perfeita, a garota que faz minha pupila dilatar e meu coração palpitar
-          mais forte... Eu sou tão realizado por ter você em minha vida, hoje
-          nesse dia tão especial, faz todo sentido lembrar que eu amo você, não
-          só nesse dia, você merece ser lembrado em todos, pois você é linda,
-          você é inteligente, especial para mim, eu amo passar tempo com você,
-          conversa, e te amar, pois amar você é uma dádiva, com amor, seu lindo...
-
-          <br /><br />
-
-          Feliz dia da mulher meu amor!! 
-        </article>
       </section>
 
       <section className="section reveal">
